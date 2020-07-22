@@ -1,0 +1,126 @@
+p{
+ color:navy;
+font-size:20px;
+    }
+ .listitem{
+ 	color:purple;
+ 	font-size:15px;
+ 	background-color: 5B95E7;
+ 	width:25%;}
+#body{
+	background-color: CFFAFF;
+}
+#button{
+	 color: 047E38;
+	background-color: blue;
+	background-size: 3em;
+	border-radius: 15px;
+	padding-bottom:3px;
+}
+
+#body{
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+#heading{
+    color:#219900;	
+    font-weight:bolder;
+    font-size:90px;
+    font-family: Noto Sans, sans-serif;
+    padding: 5px;
+    margin-bottom:12px;
+}
+#banner{
+	height:100;
+	width:920;
+	border-style:ridge blue; 
+	border-radius:50px;
+	background-color:#2962ff;
+	margin-bottom: 5px
+}
+.form{
+	width:40%;
+	border: 5px inset blue;
+}
+.video{
+	font-size:20px;
+
+}
+
+#one{
+height:150px;
+width:150px;
+background-color: gold;
+display:inline-block;
+position:relative;
+z-index: 2;
+top:750px
+}
+#two{
+height:150px;
+width:150px;
+background-color: lightgrey;
+display:inline-block;
+position:fixed;
+left:25%;
+z-index: 1
+}
+#three{
+height:150px;
+width:150px;
+background-color: darkgrey;  
+display:inline-block;
+position:absolute;
+}
+#background{
+	height:24000px;
+}
+#waterR{
+	margin-left:-10px; 
+}
+#waterL{
+	margin-right:10px; 
+}
+.navitem{
+	list-style-type:none;
+	display:inline;
+	margin-right:10px;
+	margin-left: 10px;
+	padding:2px;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:1px;
+}
+#navmenu{
+	text-align:center;
+	background-color: ADE9FF;
+	color:0789DE;
+}
+a:link{
+	color:blue;
+}
+a:visited{
+	color:;
+}
+a:hover{
+	color:065D3D;
+}
+a:active{
+	color:5641AB;
+}
+.rightside{
+	float:right;
+	width:30%;
+	padding: 30px;
+}
+.leftside{
+	width:40%;
+	float:left;
+	margin:20px;
+}
+.clearfloat{
+	clear:both;
+}
+#abouttext{
+	font-size: 3em
+}

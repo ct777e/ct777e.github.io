@@ -1,0 +1,103 @@
+<html>
+ <head>
+  <link type="text/css" rel="stylesheet" href="main.css" />
+  
+ <title> Monsoon Activity Center / Home
+  </title>
+
+  <script>
+  function answer(){
+ 
+var radio = document.getElementsByName("trivia");
+ 
+var selection = false;
+ 
+var message = "";
+ 
+for( var i = 0; i < radio.length; i++) {
+ 
+if(radio[i].value == "yes" && radio[i].checked == true) {
+ 
+selection = true;
+ 
+} //end if statement
+ 
+} //end for loop
+ 
+ if(selection == true) {
+ 
+message = message + "<b><p style='color:green'>That is correct!</p></b>";
+ 
+} else {
+ 
+message = message + "<b><p style='color:red'>Wrong.</p></b>";
+}
+ 
+document.getElementById("response").innerHTML = message;
+ 
+} //end function answer
+     
+  </script>
+    
+</script>
+  <style>
+    
+    div{
+color:teal;
+font-size: 15px
+    }
+  </style>
+ </head>
+        
+<body id="body">
+  <center>
+    <a onclick="return banner()"href="">
+    <header id="banner"> <image src="Thundercloud.gif"/> </header>
+  </a>
+</body>
+ <heading>
+   <u> <span id="heading"> Monsoon Activity Center <span> </u> 
+</heading>
+<center> Offering tons of activities for a restless mind... <center>
+    <nav> 
+     <ul id="navmenu">
+<li class="navitem"> <a href="#">Home</a> </li>
+<li class="navitem"> <a href="about.html">About</a> </li>
+<li class="navitem"> <a href="media.html">Media</a> </li>
+</ul>
+
+    </nav>
+   </center>
+  <div class="rightside">
+  <h1> A Question for YOU. </h1>
+  <p> What is the name of Wednesday's basic routine at the <u> MONSOON Activity Center? </u> </p>
+<form>
+  <div id="response">  
+  <input type= "radio" name= "trivia" value= "no"> Wonderful Wednesday <br>
+  <input type= "radio" name= "trivia" value= "yes" > Whirlwind Wednesday<br> 
+  <input type= "radio" name= "trivia" value= "no" > Whirlpool Wednesday <br>
+  <input type= "radio" name= "trivia" value= "no" > Whopping Wednesday <br>
+  <input type= "radio" name= "trivia" value= "no" > Wishful Wednesday <br>
+  <input onclick="answer()" type= "button" value= "SUBMIT "id= "button"> 
+</div>
+  </div> 
+    <div class="leftside">
+  <center> Here is our basic schedule plan. Customizable options are also available.</center>
+  <image src="Summer Guide for Quarantine 2020.png" height=350 width=475/> 
+    </div>
+</florm>
+<div class="clearfloat"/>
+
+
+</html>
+
+
+
+
+
+
+<body>
+     <footer> Graph by Powerpoint </footer>
+     <footer> Images by PixelArt</footer>
+</body>
+    
